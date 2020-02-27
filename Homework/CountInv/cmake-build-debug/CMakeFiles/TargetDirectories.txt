@@ -1,0 +1,3 @@
+/home/petko/Workspace/FMI-Semester-4/Homework/CountInv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/Workspace/FMI-Semester-4/Homework/CountInv/cmake-build-debug/CMakeFiles/CountInv.dir
+/home/petko/Workspace/FMI-Semester-4/Homework/CountInv/cmake-build-debug/CMakeFiles/edit_cache.dir
