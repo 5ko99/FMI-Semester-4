@@ -11,7 +11,91 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef761878-7528-4829-b8a6-08fad3b7d183" name="Default Changelist" comment="" />
+    <list default="true" id="ef761878-7528-4829-b8a6-08fad3b7d183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/.idea/DrinkingGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/DrinkingGame.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/DrinkingGame" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/DrinkingGame.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/DrinkingGame/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSort/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSort/.idea/HeapSort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSort/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSort/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSortAlternative/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSortAlternative/.idea/HeapSortAlternative.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSortAlternative/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSortAlternative/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/HeapSortAlternative/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/CountInv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/CountInv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/MergeSort/cmake-build-debug/MergeSort" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/MergeSort/cmake-build-debug/MergeSort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/MergeSort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/MergeSort/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Exr2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Exr2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Exr2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +105,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YFmZYLE1nhg7qzfapAPNQEC0U8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,7 +117,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -50,6 +146,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582546772204</updated>
       <workItem from="1582546774006" duration="4689000" />
+      <workItem from="1582923190595" duration="3197000" />
+      <workItem from="1583089222469" duration="82000" />
+      <workItem from="1583090573026" duration="720000" />
     </task>
     <servers />
   </component>
@@ -57,13 +156,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="748" y="281" key="FileChooserDialogImpl" timestamp="1583089299960">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="748" y="281" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1583089299960" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1583089304236">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1583089304236" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1583089304234">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1583089304234" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1583089304232">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1583089304232" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1583089304235">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1583089304235" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1582927496705">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1582927496705" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1582927496703">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1582927496703" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1582927496702">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1582927496702" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1582927496704">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1582927496704" />
     <state x="922" y="191" key="SettingsEditor" timestamp="1582546835007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582546835007" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582551993215">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="623" y="226" width="672" height="681" key="search.everywhere.popup" timestamp="1582923740955">
+      <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582551993215" />
+    <state x="623" y="226" width="672" height="681" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1582923740955" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -49,19 +49,19 @@ void printArr(const vector<T>& arr){
     }
     cout<<'\n';
 }
-template <class T>
-void cinArr(const vector<T>& arr, unsigned long n){
+
+void cinArr(vector<long>& arr, unsigned long n){
     for(auto i=0;i<n;++i){
-        cin>>arr[i];
+        scanf("%li",&arr[i]);
     }
 }
 int main() {
-    vector<int> arr;
     unsigned long n;
-    cin>>n;
+    scanf("%li",&n);
+    vector<long> arr(n);
     cinArr(arr,n);
-    
     cout<<mergeSort(arr,0,arr.size()-1)<<endl;
+    //mergeSort(arr,0,arr.size()-1);
     printArr(arr);
     return 0;
 }
