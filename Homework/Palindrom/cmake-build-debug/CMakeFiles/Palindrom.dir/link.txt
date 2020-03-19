@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Palindrom.dir/main.cpp.o  -o Palindrom.exe -Wl,--out-implib,libPalindrom.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
