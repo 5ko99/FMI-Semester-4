@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Palindrom.dir/main.cpp.o"
-  "Palindrom.exe"
+  "Palindrom"
   "Palindrom.pdb"
-  "libPalindrom.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
