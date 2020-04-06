@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/KDivPairs.dir/main.cpp.o  -o KDivPairs 
