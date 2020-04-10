@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/OneDimensionalBattleShips.dir/main.cpp.o  -o OneDimensionalBattleShips.exe -Wl,--out-implib,libOneDimensionalBattleShips.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
