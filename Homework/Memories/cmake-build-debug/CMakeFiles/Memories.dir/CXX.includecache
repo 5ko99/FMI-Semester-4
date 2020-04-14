@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-4/Homework/Memories/main.cpp
+iostream
+-
+cstdio
+-
+algorithm
+-
+
