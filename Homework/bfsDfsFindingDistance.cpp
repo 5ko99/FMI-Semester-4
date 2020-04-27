@@ -1,12 +1,15 @@
 #include<iostream>
+#include<algorithm>
 #include<vector>
 #include<queue>
+#include<string.h>
 using namespace std;
-int n, dist[10000];
+int n, dist[10000], p[10000];
 vector<int> gr[10000];
 bool used[10000];
 void init(){
     cin>>n;
+    memset(p,-1,n);
     while(cin){
         int a,b;
         cin>>a>>b;
@@ -36,28 +39,53 @@ void bfs(int start){
                 toVisit.push(gr[node][i]);
                 used[gr[node][i]]=true;
                 dist[gr[node][i]] = dist[node]+1;
+                p[gr[node][i]]=node;
             }
 
         }
     }
 }
-
+int dfs_timer=0;
+vector<int> time_in(10000), time_out(10000), color(10000);
 void dfs(int start){
-    used[start] = true;
+    color[start] = 1;
+    time_in[start]=dfs_timer++;
     printf("%d ",start);
     for(int u:gr[start])
-        if(!used[u])
+        if(color[u]==0)
             dfs(u);
+    time_out[start]=dfs_timer++;
+    color[start]=2;
 }
 
 int main(){
     init();
     cout<<endl;
-    //bfs(0);
+    bfs(0);
     dfs(0);
     cout<<endl;
     for(int i=0;i<n;++i)
         printf("Distance to %d is %d \n",i, dist[i]);
+
+    //Restore path
+    int node;
+    cin>>node;
+    if (!used[node]) {
+        cout << "No path!";
+    } else {
+        vector<int> path;
+        for (int v = node; v != -1; v = p[v])
+            path.push_back(v);
+        reverse(path.begin(), path.end());
+        cout << "Path: ";
+        for (int v : path)
+            cout << v << " ";
+    }
+    cout<<endl;
+    for(int i=0;i<n;++i){
+        printf("Vertex %d TimeIn:%d TimeOut:%d \n",i,time_in[i],time_out[i]);
+    }
+
     return 0;
 }
 /**
