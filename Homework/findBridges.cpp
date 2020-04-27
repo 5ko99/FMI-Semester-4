@@ -10,10 +10,7 @@ int timer;
 
 void init(){
     cin>>n;
-    for(int i=0;i<n;++i){
-        vector<int> v;
-        adj.push_back(v);
-    }
+    adj.assign(n,vector<int>());
     while(cin){
         int a,b;
         cin>>a>>b;
