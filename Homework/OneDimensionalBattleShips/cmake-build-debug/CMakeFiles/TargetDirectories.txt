@@ -1,3 +1,0 @@
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/OneDimensionalBattleShips/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/OneDimensionalBattleShips/cmake-build-debug/CMakeFiles/OneDimensionalBattleShips.dir
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/OneDimensionalBattleShips/cmake-build-debug/CMakeFiles/edit_cache.dir
