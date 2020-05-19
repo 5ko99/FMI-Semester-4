@@ -61,15 +61,16 @@ void num(){
 vector<int> dist2(10000,NINF);
 void num2(){
     dist2[startV]=0;
+    p[startV]=1;
     for(auto u:ans){
         for(auto v:graph[u]){
             if(dist2[v.to]<=dist2[u]+v.time){
                 dist2[v.to]=dist2[u]+v.time;
                 if(dist2[v.to]==dist[v.to]&&dist[v.to]!=NINF){
-                    ++p[v.to];
+                    //++p[v.to];
+                    p[v.to]+=p[u];
                 }
-            } 
-            
+            }
         }
     }
 }
@@ -84,6 +85,15 @@ int main(){
 }
 
 /*
+5 6
+0 1 1 
+0 2 2 
+1 2 1 
+2 3 1 
+2 4 2 
+3 4 1
+0 4
+
 6 8
 3 4 2
 3 0 1
@@ -108,4 +118,15 @@ int main(){
 0 2 3
 1 2 4
 0 2
+
+5 8
+1 2 3
+2 0 4
+0 3 4
+1 3 2
+1 0 4
+0 4 5
+3 4 10
+1 4 12
+1 4
 */
