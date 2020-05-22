@@ -22,3 +22,17 @@ gen_KS(K,Sum,[H|T]):-
     K1 is K-1,
     S is Sum-H,
     gen_KS(K1,S,T).
+
+get_union_nat_k(T):-
+    get_pair_of_nats(K,Sum),
+    K>0,
+    gen_KS(K,Sum,T).
+
+%Z^2
+get_pair_of_ints(A,B):-
+    get_pair_of_nats(N,K),
+    int(N,A),
+    int(K,B).
+
+int(N,Z):- N mod 2 =:=0,Z is N div 2.
+int(N,Z):- N mod 2 =:=1,Z is -((N-1) div 2)-1.
