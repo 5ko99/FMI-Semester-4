@@ -28,7 +28,25 @@ append([X|A],B,[X|C]):- append(A,B,C).
 
 last2(X, L):-append(_,[X],L).
 member2(X,L):-append(_,[X|_],L).
-insert(X,L,NewL):-append(L,[X|[]],NewL).
+%insertFront(X,L,NewL):-append(L,[X|[]],NewL).
 
+remove1(X,L,R):-append(A,[X|B],L), append(A,B,R).
+
+remove(X, [X | T],T).
+remove(X, [H | T],[H | Z]):-remove(X,T,Z).
+
+removeAllX(_,[],[]).
+removeAllX(X,[X|T],Z):-removeAllX(X,T,Z).
+removeAllX(X,[H|T],[H|Z]):-removeAllX(X,T,Z).
+
+insert(X,L,NewL):-remove(X,NewL,L).
+
+insertFront(X,L,[X|L]).
+
+insertBack(X,[H|T],[H|Z]):-insertBack(X,T,Z).
+
+member1(X,[X|_]).
+member1(X,[_|T]):- member1(X,T).
+member2(X,L):-remove(X,L,_).
 
 

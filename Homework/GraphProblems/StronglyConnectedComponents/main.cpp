@@ -30,6 +30,7 @@ void init(){
     }
 }
 
+// on g TOP.SORT
 void dfs1(int v){
     used[v]=true;
     for(auto u:g[v])
@@ -38,6 +39,7 @@ void dfs1(int v){
     order.push_back(v);
 }
 
+//on gr
 void dfs2(int v){
     used[v]=true;
     component.push_back(v);
