@@ -1,69 +1,89 @@
+//Solution that uses more memory and less time
 #include<iostream>
 #include<vector>
 #include<algorithm>
 #include<climits>
+#include<queue>
 using namespace std;
 #define INF INT_MAX
+#define MINF INT_MIN
 
 struct Node{
     int to,price,time;
 };
 
 vector<Node> graph[100000];
-int n,m,k,s,f;
+int n,m,k,s,f,low=INF,high=MINF;
 
 void init(){
     int from,to,price,time;
     scanf("%d %d %d",&n,&m,&k);
     for(int i=0;i<m;++i){
         scanf("%d %d %d %d",&from,&to,&price,&time);
+        if(low>price)
+            low=price;
+        if(high<price)
+            high=price;
         graph[from-1].push_back({to-1,price,time});
     }
     s=0;
     f=n-1;
 }
 
-vector<int> prices,times,p;
-void dijkstra(){
-    prices.assign(100000,INF);
-    times.assign(100000,-1);
-    p.assign(100000,-1);
-    vector<bool> u(100000,false);
 
-    prices[s]=0;
+vector<int> times,p;
+void ford(int maxPrice){
+    times.assign(100000,INF);
     times[s]=0;
 
-    for(int i=0;i<n;++i){
-        int v=-1;
-        for(int j=0;j<n;++j){
-            if(!u[j]&&(v==-1||prices[j]<prices[v]))
-                v=j;
-        }
+    vector<bool> inqueue(100000, false);
+    queue<int> q;
+    
+    q.push(s);
+    inqueue[s]=true;
 
-        if(prices[v]==INF) break;
-        u[v]=true;
-
+    while(!q.empty()){
+        int v=q.front();
+        q.pop();
+        inqueue[v]=false;
         for(auto edge:graph[v]){
-            int to=edge.to;
-            int price=edge.price;
-            int time=edge.time;
-             if (prices[v] + price < prices[to]) {
-                prices[to] = prices[v] + price;
-                times[to]= times[v]+time;
-                p[to]=v;
+            if(edge.price<=maxPrice){
+                    if(times[edge.to]>times[v]+edge.time){
+                        times[edge.to]=times[v]+edge.time;
+                        if(!inqueue[edge.to]){
+                            q.push(edge.to);
+                            inqueue[edge.to]=true;
+                        }
+                    }
             }
         }
     }
 }
 
+void binSearch(int l, int h){
+     int best=INF;
+    while(l<=h){
+        int mid=l+(h-l)/2;
+
+        ford(mid);
+        if(times[f]<=k){
+            best=mid;
+            h=mid-1;
+        }
+
+        if(times[f]>k){
+            l=mid+1;
+        }
+    }
+    if(best==INF)
+        printf("-1 \n");
+    else
+        printf("%d \n",best);
+}
 
 int main(){
     init();
-    dijkstra();
-    // for(int i=0;i<n;++i)
-    //     for(auto edge:graph[i])
-    //         printf("%d to %d with price:%d and time:%d \n",i,edge.to,edge.price,edge.time);
-    cout<<times[f]<<endl;
+    binSearch(low,high);
     return 0;   
 }
 
