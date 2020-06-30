@@ -51,7 +51,6 @@ void dfs2(int v){
 void findComponents(){
     used.assign(n,false);
     order.clear();
-    component.clear();
 
     for(int i=0;i<n;++i)
         if(!used[i])
@@ -59,6 +58,7 @@ void findComponents(){
 
     used.assign(n,false);
     reverse(order.begin(),order.end());
+    component.clear();
     for(int i=0;i<n;++i){
         if(!used[order[i]]){
             dfs2(order[i]);

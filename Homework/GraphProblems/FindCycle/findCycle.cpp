@@ -71,3 +71,12 @@ int main() {
     findCycle();
     return 0;
 }
+
+/*
+ 4
+ 0 1
+ 1 2
+ 2 3
+ 2 0
+ -1 -1
+ */

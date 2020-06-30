@@ -33,7 +33,7 @@ void dfs(int v, int p=-1){
     for(auto to:adj[v]){
         if(to==p) continue; //if we're going to parrent
         if(visited[to]){
-            low[v]=min(low[v],tin[to]);//if we alredy visited this vertex then low[v] is the min of low[v] and the in time of vertex to
+            low[v]=min(low[v],tin[to]);//if we already visited this vertex then low[v] is the min of low[v] and the in time of vertex to
         }else{
             dfs(to,v);
             low[v]=min(low[v],low[to]);//after we visited this vertex we update low[v] with the min of low[v] and low[to]

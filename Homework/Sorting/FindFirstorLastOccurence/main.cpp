@@ -35,7 +35,7 @@ int rightMostOccurrence(vector<int>& arr, int x){
 }
 
 int main(){
-    vector<int> arr={5,5,5,5,6,8,13,18,18,18,667,1000,1001,204};
+    vector<int> arr={5,5,5,5,6,8,13,18,18,18,667,1000,1001,2004};
     cout<<leftMostOccurrence(arr,5)<<' '<<rightMostOccurrence(arr,18)<<endl;
     cout<<leftMostOccurrence(arr,18)<<' '<<rightMostOccurrence(arr,5)<<endl;
     return 0;

@@ -1,3 +1,3 @@
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/SysAdmin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/SysAdmin/cmake-build-debug/CMakeFiles/SysAdmin.dir
-/cygdrive/d/Workspace/FMI-Semester-4/Homework/SysAdmin/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/Workspace/FMI-Semester-4/Homework/Arena/SysAdmin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/Workspace/FMI-Semester-4/Homework/Arena/SysAdmin/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/Workspace/FMI-Semester-4/Homework/Arena/SysAdmin/cmake-build-debug/CMakeFiles/SysAdmin.dir
