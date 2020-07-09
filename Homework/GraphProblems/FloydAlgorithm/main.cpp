@@ -3,35 +3,36 @@
 #include<algorithm>
 #include<climits>
 using namespace std;
+#define V 10000
+#define INF INT_MAX
 
-vector<vector<int>> p;
-int n;
+int dist[V][V],p[V][V], n, m;
 
-void init(vector<vector<int>>& dist){
-    cin>>n;
-    dist.assign(n,vector<int>(n,INT_MAX));
-    p.assign(n,vector<int>(n,-1));
-    for(int i=0;i<n;++i)
-        dist[i][i]=0;
-    while (true){
-        int a,b,distance;
-        cin>>a>>b>>distance;
-        if((a<n&&b<n)&&(a>=0&&b>=0)){
-            dist[a][b]=distance;
-            dist[b][a]=distance;
-        }else{
-            break;
+void init(){
+    cin>>n>>m;
+    for(int i=0;i<n;++i){
+        for(int j=0;j<n;++j){
+            if(i==j){
+                dist[i][j]=0;
+                p[i][j]=i;
+            }else{
+            dist[i][j]=INF;
+            p[i][j]=-1;
+            }
         }
-        
     }
-    
+    for(int i=0;i<m;++i){
+        int a,b,cost;
+        cin>>a>>b>>cost;
+        dist[a][b]=cost;
+    }
 }
 
-void floyd(vector<vector<int>>& dist){
+void floyd(){
     for(int k=0;k<n;++k){
         for(int i=0;i<n;++i){
             for(int j=0;j<n;++j){
-                if(dist[i][j]>dist[i][k]+dist[k][j] && dist[i][k] < INT_MAX && dist[k][j] < INT_MAX){
+                if(dist[i][k]<INF&&dist[k][j]<INF&&dist[i][j]>dist[i][k]+dist[k][j]){
                     dist[i][j]=dist[i][k]+dist[k][j];
                     p[i][j]=k;
                 }
@@ -40,10 +41,14 @@ void floyd(vector<vector<int>>& dist){
     }
 }
 
-void print(vector<vector<int>>& dist){
+void print(){
+    cout<<endl;
     for(int i=0;i<n;++i){
         for(int j=0;j<n;++j){
-            cout<<dist[i][j]<<' ';
+            if(dist[i][j]<INF)
+                cout<<dist[i][j]<<' ';
+            else 
+                cout<<"INF"<<' ';
         }
         cout<<endl;
     }
@@ -51,16 +56,13 @@ void print(vector<vector<int>>& dist){
 }
 
 int main(){
-    vector<vector<int>> dist;
-    init(dist);
-    floyd(dist);
-    cout<<endl;
-    print(dist);
-    return 0;   
+    init();
+    floyd();
+    print();
 }
 
 /*
-5
+5 7
 0 1 8
 0 4 20
 1 2 2
