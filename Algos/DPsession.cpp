@@ -8,7 +8,7 @@ long long dp[WEEK+1];
 
 
 int main(){
-    int a[WEEK],ans=0;
+    int a[10000],ans=0;
     cin>>n;
     dp[0]=1;
     for(int i=0;i<n;++i){
