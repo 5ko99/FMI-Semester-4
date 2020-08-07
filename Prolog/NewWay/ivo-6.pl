@@ -62,31 +62,65 @@ is_graph([V,E]):-
     not((X<Y,not(member([Y,X],E)))))).
 
 %hamilton
-is_hamiltonian([V,E]):-
-    permutate(V,[Start|Rest]),
-    check_path([V|E],[Start|Rest]),
-    last_in_list([Start|Rest],End),
-    edge([V|E],[End,Start]).
+is_hamiltonian([V, E]) :-
+    permutate(V, [Start | Rest]),
+    check_path([V, E], [Start | Rest]),
+    last_in_list([Start | Rest], End),
+    edge([V, E], [End, Start]).
 
-last_in_list(L,X):-append(_,[X],L).
+last_in_list(L, X) :- append(_, [X], L).
 
-edge([V,E],[X,Y]):-
-    X<Y,
-    member(X,V),
-    member(Y,V),
-    member([X,Y],E).
-edge([V,E],[X,Y]):-
-    X>Y,
-    member(X,V),
-    member(Y,V),
-    member([Y,X],E).
+edge([_, E], [X, Y]) :- X < Y, member([X, Y], E).
+edge([_, E], [X, Y]) :- X > Y, member([Y, X], E).
 
-permutate([],[]).
-permutate([H|T],P):- permutate(T,PT),insert(H,PT,P).
+permutate([], []).
+permutate([H | T], P) :- permutate(T, Q), insert(H, Q, P).
 
-insert(X,L,R):- append(P,S,L),append(P,[X|S],R).
+insert(X, L, R) :- append(P, S, L), append(P, [X | S], R).
 
-check_path([_,_],[_]).
-check_path([V,E],[X,Y|Rest]):-
-    edge([V,E],[X,Y]),
-    check_path([V,E],[Y|Rest]).
+check_path([_, _], [_]).
+check_path([V, E], [X, Y | Rest]) :-
+    check_path([V, E], [Y | Rest]),
+    edge([V, E], [X, Y]).
+
+% gen_nat_graph(G) -> G = [V, E] is graph and V is finite subset of naturals
+% [ [1, 2], [] ] is isom. with [ [100, 399], [] ]
+% for vertecies we have [1, 2, ..., N] for some postive N
+gen_nat_graph([V,E]):-
+    nat(N),N>0,
+    range(1,N,V),
+    gen_all_edges(V,All_Edges),
+    subset(All_Edges,E).
+
+range(A,B,[]):-A>B.
+range(A,B,[A|R]):- A=<B,A1 is A + 1, range(A1,B,R).
+
+subset([],[]).
+subset([H|T],[H|R]):-subset(T,R).
+subset([_|T],R):-subset(T,R).
+
+% [1, 2, 3, 4] ->
+% 1: [1, 2], [1, 3], [1, 4]
+% 2: [2, 3], [2, 4]
+% 3: [3, 4]
+% 4: [] 
+% appendAll -> [ [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4] ]
+% V = 1, VS = [2, 3, 4]
+% [[1, 2], [1, 3], [1, 4]] . [ [2, 3], [2, 4], [3, 4] ]
+gen_all_edges([],[]).
+gen_all_edges([V|VT],All):-
+    gen_all_for_vertex([V|VT],AllV),
+    gen_all_edges(VT,AllT),
+    append(AllV,AllT,All).
+
+gen_all_for_vertex([_],[]).
+gen_all_for_vertex([H|T],A):-
+    T\=[],
+    insert_first_to_all(H,T,A).
+
+insert_first_to_all(_,[],[]).
+insert_first_to_all(X,[H|T],[[X,H]|TR]):- insert_first_to_all(X,T,TR).
+
+gen_nat_ham_graph(G) :-
+    gen_nat_graph(G),
+    is_hamiltonian(G).

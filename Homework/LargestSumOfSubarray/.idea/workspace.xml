@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="LargestSumOfSubarray" targetName="LargestSumOfSubarray" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00e3bd01-9892-4c3c-a029-2e266cf59230" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FindLoop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FindLoop/.idea/FindLoop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FindLoop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FindLoop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FindLoop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LargestSumOfSubarray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/.idea/SpecialStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpecialStack/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aAn7UY6GyAkgxzQCGF0RfBrH9R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LargestSumOfSubarray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LargestSumOfSubarray" TARGET_NAME="LargestSumOfSubarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LargestSumOfSubarray" RUN_TARGET_NAME="LargestSumOfSubarray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00e3bd01-9892-4c3c-a029-2e266cf59230" name="Default Changelist" comment="" />
+      <created>1586187098790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586187098790</updated>
+      <workItem from="1586187100326" duration="1518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1870" height="270" key="GridCell.Tab.0.bottom" timestamp="1586189441029">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1870" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1036@0.0.1920.1036" timestamp="1586189441029" />
+    <state width="1870" height="270" key="GridCell.Tab.0.center" timestamp="1586189441029">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1870" height="270" key="GridCell.Tab.0.center/0.0.1920.1036@0.0.1920.1036" timestamp="1586189441029" />
+    <state width="1870" height="270" key="GridCell.Tab.0.left" timestamp="1586189441021">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1870" height="270" key="GridCell.Tab.0.left/0.0.1920.1036@0.0.1920.1036" timestamp="1586189441021" />
+    <state width="1870" height="270" key="GridCell.Tab.0.right" timestamp="1586189441029">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1870" height="270" key="GridCell.Tab.0.right/0.0.1920.1036@0.0.1920.1036" timestamp="1586189441029" />
+  </component>
+</project>
