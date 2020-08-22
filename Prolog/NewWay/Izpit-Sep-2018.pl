@@ -155,4 +155,6 @@ list_of_lists([H|T]):-
 
 is_list1([_]).
 is_list1([_|_]).
-    
+
+is_two(X):- Y is  2,nat(X),not(X=\=Y).
+is_two2(X):- X is 2.
