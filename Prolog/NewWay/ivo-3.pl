@@ -8,6 +8,8 @@ partitition([],[]).
 partitition([[H]|P],[H|T]):-partitition(P,T).
 partitition([[H|HP]|TP],[H|T]):-partitition([HP|TP],T).
 
+partitition3(L,R):-join(R,L).
+
 partitition2([],[]).
 partitition2(L,[P|PS]):-
     append(P,S,L),

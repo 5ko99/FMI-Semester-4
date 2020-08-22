@@ -23,10 +23,10 @@ last(X,[_|T]):-last(X,T).
 last1(X,L):-append(_,[X],L).
 
 %prefix
-prefix(X,L):-append(X,_,L).
+prefix(X,L):-append([X],_,L).
 
 %suffix
-suffix(X,L):-append(_,X,L).
+suffix(X,L):-append(_,[X],L).
 
 %infix
 infix(S, L) :- prefix(P, L), suffix(S, P).
